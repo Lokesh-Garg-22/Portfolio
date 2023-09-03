@@ -379,7 +379,7 @@
 }
 
 .top-jumbotron {
-  background-image: url(/assets/img/bg.87635d9.webp);
+  background-image: url("startBackground.webp");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,6 +1,6 @@
-import StartSection from "./StartSection";
-import Cursor from "./cursor";
-import Nav from "./Nav";
+import StartSection from "./StartSection.js";
+import Cursor from "./cursor.js";
+import Nav from "./Nav.js";
 
 window.cursor = new Cursor();
 window.nav = new Nav();
