@@ -3,6 +3,6 @@ export default class StartSection {
     this.startSection = document.getElementById("start");
     this.animText = this.startSection.getElementsByClassName("anim-txt")[0];
     this.animTextList = ["webapps", "websites", "ux/ui", "things"];
-    console.log(this.animText);
+    // console.log(this.animText);
   }
 }

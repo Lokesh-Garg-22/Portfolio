@@ -1,10 +1,12 @@
 import StartSection from "./StartSection.js";
+import ProjectBoxs from "./ProjectBoxs.js";
 import Cursor from "./cursor.js";
 import Nav from "./Nav.js";
 
 window.cursor = new Cursor();
 window.nav = new Nav();
 window.startSection = new StartSection();
+window.projectBoxs = new ProjectBoxs(window.cursor);
 
 let aTagList = document.getElementsByTagName("a");
 for (let e of aTagList) {
