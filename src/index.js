@@ -1,6 +1,6 @@
 import StartSection from "./StartSection.js";
 import ProjectBoxs from "./ProjectBoxs.js";
-import Cursor from "./cursor.js";
+import Cursor from "./Cursor.js";
 import Nav from "./Nav.js";
 
 window.cursor = new Cursor();
